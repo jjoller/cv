@@ -1,0 +1,188 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,english,nologo,openbib,totpages]{europecv}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace} %package to control the overall spacing
+
+\geometry{verbose,tmargin=1.5cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=1.5cm}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter%
+\renewcommand*\ecvtitle{%taken from definition file ecven.def and adapted to requirement 
+    \ecv@utf{\Large\textbf{C\ecv@kern u\ecv@kern r\ecv@kern r\ecv@kern
+            i\ecv@kern c\ecv@kern u\ecv@kern l\ecv@kern u\ecv@kern m \ecv@kern V\ecv@kern
+            i\ecv@kern t\ecv@kern a\ecv@kern e}}
+}
+\def\ecv@picture[#1]#2{%
+    \def\ecvarg{#2}%
+    \ifx\@empty\ecvarg\renewcommand*{\ecvdrawpicture}{}\else%
+    \renewcommand*{\ecvdrawpicture}{\begin{picture}(80,0)(0,50)\includegraphics[#1]{#2}\end{picture}}%adjust the (0,50) params to fine tune the picture position
+    \fi}%
+\makeatother%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{graphicx}
+
+\setstretch{1.0}% sets the line spacing to 90%
+
+% Define personal data
+\ecvname{Joller, Jost}
+\ecvfootername{Jost Joller}
+\ecvdateofbirth{Jan 3 1987}
+\ecvnationality{Swiss}
+\ecvaddress{Langstr. 119, 8004 Zürich, Switzerland}
+\ecvemail{jostjo@gmail.com}
+\ecvtelephone{+41788612444}
+
+
+% for the gender and fax number
+%\ecvgender{male}
+%\ecvfax{fax}
+
+% define text or image alignment and position:
+% in this case the image is shifted 6cm to the right
+\ecvbeforepicture{\hspace{9.4cm}}
+
+% image
+\ecvpicture[height=3cm]{portrait.jpg}
+
+% define text or space after the image
+% in this case the following shifted 2cm to the image
+\ecvafterpicture{\ecvspace{-1cm}}
+
+% if you e.g. only want the page number to be printed in the footer
+%\ecvpage{\thepage}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\begin{europecv}{}
+
+
+
+\ecvpersonalinfo{}{}
+
+
+\ecvsection{Employment}
+
+\ecvitem[2ex]{May 2017--now}{\textbf{Java Software Engineer} at Six Group.  }
+
+\ecvitem[2ex]{April 2015--April 2017}{\textbf{Back-End Software Engineer} and Cofounder at Taskbase AG. Design, development and maintenance of the Taskbase.com server architecture. Taskbase is a Learning Management System for teachers, teaching assistants and students of various educational institutions in Switzerland. }
+
+
+\ecvitem[2ex]{October 2012--October 2013}{\textbf{Java and JavaScript Engineer} at ETHJuniors. Extension and maintenance of the store location app of Migros, Switzerland's largest retail company.}
+
+
+\ecvitem[2ex]{January 2012--June 2012}{\textbf{Assistant at the Insitute for Machine Learning} at ETH as an expert in Robust Principal Component Analysis.}
+
+
+\ecvitem[2.5ex]{June 2010--August 2010}{\textbf{Software Development Intern} at the start-up Videa - Business Process Optimization.
+Java implementation of an interface between two business process modelling
+tools.}
+
+
+\ecvsection{Education}
+
+\ecvitem[2ex]{2014--2016}{\textbf{M.Sc. Computer Science, ETH Zürich} Distributed Computing, Concurrent Computation, Computational Statistics, Projects in Machine Learning, Robotics Programming Lab, Advanced Systems Lab, Algorithms Lab, Web Engineering, Software Engineering, High Tech Start-up Management, ...
+Thesis: Combining Paper and Digital Tools in the Classroom: A Case Study}
+
+\ecvitem[2ex]{2008--2013}{\textbf{B.Sc. Computer Science, ETH Zürich} Theory of Computing, Functional Programming, Parallel Programming, Data Modelling and Databases, Distributed Systems, Modelling and Simulation, Pattern Recognition, Visual Computing, Compiler Design, Software Architecture, ...
+Thesis: Learning personality preferences for improved dating experiences on a social network}
+
+\ecvitem[2ex]{2001--2007}{\textbf{Gymnasium}, Kantonsschule Obwalden}
+
+
+\ecvsection{Other}
+
+
+\ecvitem[2ex]{July 2014}{Deployment of Acadilly.com, a web application for math quizzes
+used in two undergraduate Math courses at the University of St. Gallen.}
+
+\ecvitem[2ex]{June 2013}{Deployment of FindMyType.net, a Facebook based recommender
+system that was based on an algorithm developed in the context
+of my Bachelor Thesis.}
+
+\ecvitem[2ex]{February 2008--July 2008}{Service in the Swiss military as a grenadier.}
+
+\ecvitem[2ex]{August 2007--January 2008}{Construction worker, Schlosserei Andreas Rohrer in Alpnach, Switzerland.}
+
+\ecvsection{Programming Experience}
+
+\ecvitem[2ex]{}{%
+\begin{tabular}{|c|c|c|}
+\hline 
+Technology & Experience & Frequency of usage\tabularnewline
+\hline 
+\hline 
+Java & 10 years & daily\tabularnewline
+\hline 
+Java 8 & 2 years & daily\tabularnewline
+\hline 
+SQL & 8 years & infrequently\tabularnewline
+\hline 
+Kotlin & 1 year & daily\tabularnewline
+\hline 
+Unix shell & 8 years & daily\tabularnewline
+\hline 
+Linux & 8 years & daily\tabularnewline
+\hline 
+Docker & 2 years & daily\tabularnewline
+\hline 
+Git & 3 years & daily\tabularnewline
+\hline 
+Python & 4 years & infrequently\tabularnewline
+\hline 
+Matlab & 8 years & infrequently\tabularnewline
+\hline 
+HTML,CSS & 6 years & infrequently\tabularnewline
+\hline 
+Javascript & 6 years & frequently\tabularnewline
+\hline 
+C/C++ & 7 years & infrequently\tabularnewline
+\hline 
+\end{tabular}}
+
+
+\ecvitem[2ex]{System Maintenance}{Maintaining a scaleable production system on Amazon AWS with live deployment capabilities.}
+
+
+\ecvsection{Awards}
+
+\ecvitem[2ex]{July 2016}{VentureKick Stage I winner with Taskbase.com.}
+
+\ecvitem[2ex]{July 2016}{\texttt{>\textcompwordmark{}>}\texttt{\large{}venture}\texttt{>\textcompwordmark{}>}
+Business plan competition: Top 25 with Taskbase.}
+
+\ecvitem[2ex]{December 2004}{1st place at the Hönggerberg Bridge Award, a model bridge construction
+competition hosted by the civil engineering department of ETH Zurich.}
+
+\ecvsection{Languages}
+
+\ecvmothertongue[10pt]{German}
+
+\ecvlanguageheader{($\star$)}
+
+\ecvlanguage{English}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}
+
+\ecvlastlanguage{French}{\ecvATwo}{\ecvATwo}{\ecvATwo}{\ecvATwo}{\ecvATwo}
+
+\ecvlanguagefooter{($\star$)}
+
+
+\ecvsection{Interests}
+
+\ecvitem[2ex]{Programming}{{\small{}Recommender Systems, Artificial Intelligence, Reinforcement learning agents}}
+
+
+\ecvitem[2ex]{Sports}{{\small{}Cycling, Competitive running (TV Oerlikon, Zürich), Cross country skiing}}
+
+
+\end{europecv}{}
+\end{document}
